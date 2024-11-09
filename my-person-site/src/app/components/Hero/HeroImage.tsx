@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import image from './me.png';
+
 
 const HeroImage: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const HeroImage: React.FC = () => {
     >
       <div className="w-full max-w-xs md:max-w-md lg:max-w-lg relative">
         <Image
-          src={image}
+          src='/me.png'
           alt="Developer working on a laptop"
           layout="responsive"
           width={400}
