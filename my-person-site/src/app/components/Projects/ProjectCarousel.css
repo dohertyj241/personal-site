@@ -1,0 +1,49 @@
+.carousel-container {
+    position: relative;
+    max-width: 800px; /* Increase the max-width to make the cards bigger */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    position: relative;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    padding: 0 40px; /* Increase padding to make the cards larger */
+  }
+  
+  .carousel-button {
+    background: none;
+    border: none;
+    font-size: 32px; /* Increase font size for better visibility */
+    cursor: pointer;
+  }
+  
+  .carousel-pagination {
+    margin-top: 10px;
+  }
+  
+  .pagination-dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    display: inline-block;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .pagination-dot.active {
+    background-color: #333;
+  }
+  

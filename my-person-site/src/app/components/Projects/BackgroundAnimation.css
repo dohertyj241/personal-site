@@ -1,0 +1,30 @@
+.bg-radial-gradient {
+    background: radial-gradient(circle at center, #6b5b95, #130f40 70%, #1c1c1c);
+    opacity: 1;
+  }
+  
+  /* Animation for a noise effect */
+  @keyframes noise {
+    0%, 100% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  .animate-noise {
+    animation: noise 6s infinite alternate;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch" /></filter><rect width="100%" height="100%" filter="url(#noiseFilter)" /></svg>');
+    mix-blend-mode: overlay;
+    opacity: 0.1;
+  }
+  
+  /* Ensuring the animation is more noticeable while still blending with the background to create a professional effect */
+  .bg-radial-gradient, .animate-noise {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+  }
+  

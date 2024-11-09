@@ -1,0 +1,111 @@
+import { FaJsSquare, FaPython, FaReact, FaNodeJs,  FaJava, FaDocker, FaCss3Alt, FaHtml5, FaGitAlt, FaFigma, FaCode, FaLaptopCode, FaFeatherAlt, FaLinux } from 'react-icons/fa';
+
+const techStack = [
+  {
+    title: 'Next.js',
+    description: 'A React framework that enables server-side rendering and generating static websites.',
+    icon: <FaReact />,
+    technologies: ['Static Generation', 'Server-side Rendering', 'API Routes'],
+    skillLevel: 'advanced',
+  },
+  {
+    title: 'C#',
+    description: 'A modern, object-oriented programming language developed by Microsoft.',
+    icon: <FaCode />, 
+    technologies: ['.NET Core', 'ASP.NET', 'Unity'],
+    skillLevel: 'intermediate',
+  },
+  {
+    title: 'TypeScript',
+    description: 'A strongly typed programming language that builds on JavaScript, adding static types.',
+    icon: <FaLaptopCode />, 
+    technologies: ['Type Safety', 'Angular', 'React'],
+    skillLevel: 'advanced',
+  },
+  {
+    title: 'Tailwind CSS',
+    description: 'A utility-first CSS framework for rapidly building custom user interfaces.',
+    icon: <FaFeatherAlt />, 
+    technologies: ['Utility Classes', 'Responsive Design', 'Customization'],
+    skillLevel: 'intermediate',
+  },
+  {
+    title: 'Linux',
+    description: 'An open-source Unix-like operating system used for servers, development, and embedded systems.',
+    icon: <FaLinux />,
+    technologies: ['Shell Scripting', 'System Administration', 'Networking'],
+    skillLevel: 'advanced',
+  },
+  {
+    title: 'JavaScript',
+    description: 'A versatile, high-level programming language primarily used for front-end web development.',
+    icon: <FaJsSquare />,
+    technologies: ['ES6', 'React', 'Node.js'],
+    skillLevel: 5,
+  },
+  {
+    title: 'Python',
+    description: 'A powerful, easy-to-learn programming language popular for web development, automation, and data science.',
+    icon: <FaPython />,
+    technologies: ['Django', 'Flask', 'TensorFlow'],
+    skillLevel: 4,
+  },
+  {
+    title: 'React',
+    description: 'A JavaScript library for building user interfaces, developed and maintained by Facebook.',
+    icon: <FaReact />,
+    technologies: ['React Hooks', 'Redux', 'Next.js'],
+    skillLevel: 5,
+  },
+  {
+    title: 'Node.js',
+    description: 'A back-end JavaScript runtime environment that enables server-side development.',
+    icon: <FaNodeJs />,
+    technologies: ['Express', 'NestJS', 'MongoDB'],
+    skillLevel: 4,
+  },
+  {
+    title: 'Java',
+    description: 'A general-purpose programming language known for its portability across platforms.',
+    icon: <FaJava />,
+    technologies: ['Spring Boot', 'Hibernate', 'Maven'],
+    skillLevel: 4,
+  },
+  {
+    title: 'Docker',
+    description: 'A platform for developing, shipping, and running applications in containers.',
+    icon: <FaDocker />,
+    technologies: ['Docker Compose', 'Kubernetes', 'Containerization'],
+    skillLevel: 4,
+  },
+  {
+    title: 'CSS3',
+    description: 'A style sheet language used for describing the presentation of a document written in HTML or XML.',
+    icon: <FaCss3Alt />,
+    technologies: ['Flexbox', 'Grid', 'Sass'],
+    skillLevel: 5,
+  },
+  {
+    title: 'HTML5',
+    description: 'The standard markup language for documents designed to be displayed in a web browser.',
+    icon: <FaHtml5 />,
+    technologies: ['Semantic HTML', 'Web Components', 'Canvas API'],
+    skillLevel: 5,
+  },
+  {
+    title: 'Git',
+    description: 'A distributed version control system used to track changes in source code during software development.',
+    icon: <FaGitAlt />,
+    technologies: ['GitHub', 'GitLab', 'Bitbucket'],
+    skillLevel: 4,
+  },
+  {
+    title: 'Figma',
+    description: 'A web-based UI/UX design tool used for creating interface prototypes.',
+    icon: <FaFigma />,
+    technologies: ['Prototyping', 'Component Libraries', 'Collaborative Design'],
+    skillLevel: 4,
+  },
+];
+
+export default techStack;
