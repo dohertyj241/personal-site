@@ -6,7 +6,7 @@ const HeroImage: React.FC = () => {
     
       <div className="w-8/12 max-w-xs md:max-w-md lg:max-w-lg relative">
         <Image
-          src='/me.png'
+          src='/jack.png'
           alt="Me"
           layout="responsive"
           width={400}

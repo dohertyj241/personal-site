@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
         <HeroContent />
       </div>
       
-      <div className="bg-custom-conic-gradient flex-grow rounded-xl flex flex-col justify-center md:w-1/2 w-full px-8 py-16">
+      <div className="bg-custom-conic-gradient flex-grow rounded-xl flex flex-col justify-center md:w-1/2 w-full px-4 py-16">
         <h1 className="font-normal whitespace-nowrap text-5xl py-4">Your Developer</h1>
         <h1 className="font-normal whitespace-nowrap text-5xl py-4">and Designer.</h1>
         <h1 className="font-bold whitespace-nowrap text-5xl py-4">In One.</h1>
