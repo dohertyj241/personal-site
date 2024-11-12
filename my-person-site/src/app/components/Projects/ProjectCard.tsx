@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       className="p-12 m-4 bg-gradient-to-br from-neutral-900 to-black rounded-xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out will-change-transform"
       whileHover={{ scale: 1.02 }}
     >
-      <div className="w-full h-80 relative mb-10 overflow-hidden">
+      <div className="w-full min-h-96 relative my-10 overflow-hidden">
         <Image
           src={project.image}
           alt={project.title}

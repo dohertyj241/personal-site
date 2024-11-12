@@ -13,7 +13,7 @@ const NavbarWithMobileMenu = () => {
     <IconContext.Provider value={{ color: "#A020F0", size: "1.5em" }}>
       <nav className="flex justify-between items-center p-6 bg-black text-white">
         <h1 className="text-xl font-bold hover:text-purple-500 cursor-pointer transition duration-300 transform hover:scale-110">
-          JackDoherty
+          <span className='text-purple-500'>DesignedBy</span>Jack
         </h1>
         <div className="hidden md:flex space-x-8">
           <a href="#about" className="hover:text-purple-500 flex items-center transition duration-300 transform hover:scale-110">

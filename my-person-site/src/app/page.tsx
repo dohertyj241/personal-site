@@ -9,7 +9,7 @@ import TechstackSection from "./components/Techstack/TechStackSection";
 import AboutMeSection from "./components/Aboutme";
 import FooterSection from "./components/Footer";
 import ServicesSection from "./components/Services/ServicesSection";
-
+import Contact from "./components/Contact/contact";
 export default function Home() {
   return (
     <div>
@@ -20,7 +20,9 @@ export default function Home() {
         <SkillsSection />
         <TechstackSection />
         <ProjectsSection />
+        <Contact/>
         <FooterSection />
+        
     </div>
   );
 }

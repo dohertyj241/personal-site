@@ -32,7 +32,7 @@ const ServicesSection: React.FC = () => {
                                 {tech.description}
                             </p>
                             {tech.price && (
-                                <p className="mt-4 text-lg font-semibold text-purple-300">
+                                <p className="mt-4 text-lg font-semibold text-white">
                                     Starting at: £{tech.price}
                                 </p>
                             )}
