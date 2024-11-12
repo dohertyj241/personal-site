@@ -26,7 +26,7 @@ const projects = [
       title: 'Smart Home Console App',
       description: 'Developed a console application that simulates a smart home system, allowing users to control lights, temperature, and security.',
       image: projectImage4,
-      technologies: ['Java', 'OOP', 'MVC', 'git'],
+      technologies: ['Java', 'OOP', 'MVC',],
     },
   ];
 
